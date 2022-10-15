@@ -2,15 +2,18 @@ package Sobrecarga;
 public class SobrecargaMetodo {
     
 
-    public static void area(double lado) {
-        System.out.println("Área do quadrado: " + (lado * lado));
+    public static double area(double lado) {
+        double calculo = lado * lado;
+        return calculo;
     }
 
-    public static void area(double lado1,double lado2) {
-        System.out.println("Área do quadrado: " + (lado1 * lado2));
+    public static double area(double lado1,double lado2) {
+        double calculo = lado1 * lado2;
+        return calculo;
     }
 
-    public static void area(double baseMaior, double baseMenor, double altura) {
-        System.out.println("Área do quadrado: " + ((baseMaior+baseMenor)*altura)/2);
+    public static double area(double baseMaior, double baseMenor, double altura) {
+        double calculo = ((baseMaior+baseMenor)*altura)/2;
+        return calculo;
     }
 }
