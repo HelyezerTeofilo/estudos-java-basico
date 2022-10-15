@@ -3,7 +3,7 @@ public class ArrayMultidimencional {
     public static void main(String[] args) {
         Random random = new Random();
 
-        int[][] M = new int[4][4];
+        int[][] M = new int[3][2];
 
         for(int i = 0; i < M.length; i++){
 
